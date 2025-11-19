@@ -1,0 +1,114 @@
+# ----------------------------------------
+# Global / Windows
+# ----------------------------------------
+Thumbs.db
+.DS_Store
+desktop.ini
+ehthumbs.db
+Icon?
+# Windows image file caches
+Thumbs.db:encryptable
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# node modules and lockfiles (optionally keep lockfile)
+node_modules/
+# If you prefer to track package-lock.json, remove the next line
+# package-lock.json
+# If you prefer yarn.lock, remove the next line
+# yarn.lock
+
+# ----------------------------------------
+# Environment / secrets
+# ----------------------------------------
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets.env
+*.pem
+*.key
+
+# ----------------------------------------
+# Build / artifacts for React and Node
+# ----------------------------------------
+# React (create-react-app)
+build/
+coverage/
+*.log
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React specific
+# If the tms app is built into tms/build:
+tms/build/
+tms/node_modules/
+
+# Backend build / dist
+backend/dist/
+backend/build/
+backend/node_modules/
+backend/.parcel-cache/
+
+# ----------------------------------------
+# Editor / OS temporary files
+# ----------------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+*.orig
+
+# macOS
+.DS_Store
+
+# Snapshots / test artifacts
+coverage/
+*.lcov
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Parcel, webpack caches
+.cache/
+.parcel-cache/
+
+# Misc
+.vagrant/
+dist/
+out/
+
+# If you use Docker
+docker-compose.override.yml
+.env.docker
+
+# IntelliJ
+*.iml
+*.iws
+.idea/
+
+# End of file
